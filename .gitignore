@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local secrets
+千问api_key
+openlaunch_api-key
+
+# Local biometric profile generated during enrollment
+voiceprint_profile.json
+
+# Keep only the main README in version control
+*.pdf
+*.md
+!README.md
